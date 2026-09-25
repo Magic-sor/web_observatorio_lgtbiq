@@ -1,0 +1,43 @@
+/* Geography occupies the first row of the main dashboard. */
+.workspace { grid-template-columns: 235px minmax(0, 1fr); align-items: start; }
+.geography-grid { display: grid; grid-template-columns: minmax(300px, .9fr) minmax(0, 1.6fr); gap: 20px; align-items: stretch; }
+.geography-grid .matrix-panel .scroll { max-height: 606px; }
+.geography-grid .matrix-panel { display: flex; flex-direction: column; }
+.geography-grid .matrix-panel .panel-heading { flex-wrap: wrap; margin-bottom: 8px; }
+.geography-grid .matrix th { min-width: 66px; }
+.geography-grid .matrix th:first-child { min-width: 100px; }
+.geography-grid .matrix button { min-height: 26px; }
+#map svg { height: 520px; display: block; }
+.map-focus { color: var(--ink); font-size: 12px; font-weight: 600; margin: 0 0 12px; }
+.map-companions { display: grid; gap: 20px; grid-template-rows: auto 1fr; min-width: 0; }
+.equivalence-grid { display: grid; grid-template-columns: minmax(0, 2.3fr) minmax(260px, 1fr); gap: 20px; margin-top: 20px; align-items: stretch; }
+.equivalence-grid .panel-heading { flex-wrap: wrap; }
+.levels-panel { display: flex; flex-direction: column; }
+.levels-panel #levels { margin: auto 0; }
+.equivalence-grid .matrix th { min-width: 60px; }
+.equivalence-grid .matrix th:first-child { min-width: 105px; }
+.rights-panel .bar-row { grid-template-columns: minmax(150px, 1fr) 1fr 26px; }
+:root { --ink: #293e58; --accent: #4b709b; --green: #83ad70; }
+header { background: #283e57; border-bottom-color: #8399b1; }
+.brand-icon { color: #c2cedc; }
+.bar-fill { background: #5877a0; }
+.level-3 { background: #83ad70!important; }
+.level-2 { background: #e6c366!important; }
+.level-1 { background: #df8585!important; }
+.no-data, .level-0 { background: transparent!important; color: #83909c!important; }
+@media (max-width: 1200px) {
+  .workspace { grid-template-columns: 1fr; }
+  aside { display: block; }
+  #filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 16px; }
+  .filters .hint { margin-top: 12px; }
+}
+@media (max-width: 700px) {
+  .equivalence-grid { grid-template-columns: 1fr; }
+  .geography-grid { grid-template-columns: 1fr; }
+  .geography-grid .matrix-panel .scroll { max-height: 400px; }
+  #filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .chart-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  #map svg { height: 440px; }
+}
