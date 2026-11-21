@@ -4,7 +4,25 @@ const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const palette = ['#5877a0','#dfb457','#879dba','#ab91b0','#83a879','#d18e77','#718d96','#c7b991'];
 const levelNames = ['Vacío / Inequivalencia','Regresiva / Criminalizante','Equivalencia parcial','Equivalencia plena'];
 const colors = [null,'#df8585','#e6c366','#83ad70'];
-const filters = {}; let data, geography, current = [], page = 0;
+const treatyColors = {'Vigente':'#83ad70','No vigente':'#d18e77','Controvertida':'#df8585'};
+const filters = {}; let data, geography, current = [], page = 0, treaty = 'Belém do Pará (SIDH)';
+const project=([lon,lat])=>[(lon+119)*4.6,(34-lat)*4.6];
+const geoPath=geometry=>{const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;return polygons.map(poly=>poly.map(ring=>ring.map((p,i)=>(i?'L':'M')+project(p).map(n=>n.toFixed(2)).join(',')).join('')+'Z').join('')).join('');};
+function filteredCountries(){ return data.countries.filter(c => filters.Cod_Pais ? c.Cod_Pais === filters.Cod_Pais : filters.Subregion_ILGA && c.Subregion_ILGA === filters.Subregion_ILGA); }
+function focusSvg(svg, selectedCodes){
+  const selectedPaths = [...svg.querySelectorAll('[data-country]')].filter(p => selectedCodes.has(p.dataset.country));
+  svg.querySelectorAll('path').forEach(p => {
+    p.style.opacity = selectedCodes.size && !selectedCodes.has(p.dataset.country) ? '.25' : '1';
+    p.setAttribute('vector-effect', 'non-scaling-stroke');
+  });
+  if (selectedPaths.length) {
+    const bounds = selectedPaths.map(p => p.getBBox());
+    const left = Math.min(...bounds.map(b => b.x)), top = Math.min(...bounds.map(b => b.y));
+    const right = Math.max(...bounds.map(b => b.x + b.width)), bottom = Math.max(...bounds.map(b => b.y + b.height));
+    const padding = Math.max(right - left, bottom - top) * .12;
+    svg.setAttribute('viewBox', `${left-padding} ${top-padding} ${right-left+padding*2} ${bottom-top+padding*2}`);
+  }
+}
 const fields = [['Cod_Pais','País'],['Subregion_ILGA','Subregión'],['Ambito_Derecho','Ámbito de derecho'],['Formante','Formantes'],['Nivel_Equivalencia','Nivel de equivalencia'],['Efecto_Normativo','Efecto normativo'],['Tipo_Instrumento','Tipo de instrumento'],['year','Año de vigencia']];
 const empty = '<p class="empty">Sin evidencias para esta selección.</p>';
 function setFilter(key,value) { if(value==='Sin especificar')value='__empty__'; filters[key] = filters[key] === value ? '' : value; page = 0; render(); }
@@ -44,35 +62,35 @@ function render() {
   const levelCounts=[0,1,2,3].map(l=>valid.filter(r=>r.level===l).length), max=Math.max(...levelCounts,1);
   $('levels').innerHTML=valid.length?`<div class="columns">${[3,2,1].map(l=>`<button class="column" data-level="${l}" aria-label="${levelNames[l]}: ${levelCounts[l]}"><b>${levelCounts[l]}</b><div class="pillar" style="height:${levelCounts[l]/max*140}px;background:${colors[l]}"></div><span class="label">${['','Regresiva','Parcial','Plena'][l]}</span></button>`).join('')}</div>${valid.some(r=>r.level===null)?`<p class="hint">${valid.filter(r=>r.level===null).length} evidencia(s) sin nivel especificado.</p>`:''}`:empty;
   $('levels').querySelectorAll('button').forEach(b=>b.onclick=()=>{const value=data.evidence.find(r=>r.level===Number(b.dataset.level))?.Nivel_Equivalencia;if(value)setFilter('Nivel_Equivalencia',value);});
-  renderMap();renderTable();
+  renderMap();renderTreaties();renderTable();
 }
 function renderMap(){
   if(!geography){$('map').innerHTML='<p class="empty">Mapa no disponible.</p>';return;}
-  const selectedCountries = data.countries.filter(c => filters.Cod_Pais ? c.Cod_Pais === filters.Cod_Pais : filters.Subregion_ILGA && c.Subregion_ILGA === filters.Subregion_ILGA);
+  const selectedCountries = filteredCountries();
   const selectedCodes = new Set(selectedCountries.map(c => c.Cod_Pais));
   const zoomLabel = filters.Cod_Pais ? selectedCountries[0]?.Pais : filters.Subregion_ILGA;
-  const project=([lon,lat])=>[(lon+119)*4.6,(34-lat)*4.6];
-  const path=geometry=>{const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;return polygons.map(poly=>poly.map(ring=>ring.map((p,i)=>(i?'L':'M')+project(p).map(n=>n.toFixed(2)).join(',')).join('')+'Z').join('')).join('');};
-  $('map').innerHTML=`<svg viewBox="0 0 400 420" aria-label="Mapa de equivalencia normativa de América Latina">${geography.features.map(f=>{const code=f.properties['ISO3166-1-Alpha-3'],country=data.countries.find(c=>c.Cod_Pais===code),level=minimum(current.filter(r=>r.Cod_Pais===code));return `<path d="${path(f.geometry)}" fill="${level===null?'#e0e7e2':colors[level]}" ${country?`tabindex="0" role="button" data-country="${code}" aria-label="Filtrar ${esc(country.Pais)}"`:''} opacity="${filters.Cod_Pais&&filters.Cod_Pais!==code?'.35':'1'}"><title>${esc(country?.Pais||f.properties.name)}: ${level===null?'Sin datos':levelNames[level]}</title></path>`;}).join('')}</svg><p class="hint">Selecciona un país para filtrar · Cartografía: Natural Earth</p>`;
+  $('map').innerHTML=`<svg viewBox="0 0 400 420" aria-label="Mapa de equivalencia normativa de América Latina">${geography.features.map(f=>{const code=f.properties['ISO3166-1-Alpha-3'],country=data.countries.find(c=>c.Cod_Pais===code),level=minimum(current.filter(r=>r.Cod_Pais===code));return `<path d="${geoPath(f.geometry)}" fill="${level===null?'#e0e7e2':colors[level]}" ${country?`tabindex="0" role="button" data-country="${code}" aria-label="Filtrar ${esc(country.Pais)}"`:''} opacity="${filters.Cod_Pais&&filters.Cod_Pais!==code?'.35':'1'}"><title>${esc(country?.Pais||f.properties.name)}: ${level===null?'Sin datos':levelNames[level]}</title></path>`;}).join('')}</svg><p class="hint">Selecciona un país para filtrar · Cartografía: Natural Earth</p>`;
   $('map').querySelectorAll('[data-country]').forEach(p=>{p.onclick=()=>setFilter('Cod_Pais',p.dataset.country);p.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();p.onclick();}};});
   const svg = $('map').querySelector('svg');
-  const selectedPaths = [...svg.querySelectorAll('[data-country]')].filter(p => selectedCodes.has(p.dataset.country));
-  svg.querySelectorAll('path').forEach(p => {
-    p.style.opacity = selectedCodes.size && !selectedCodes.has(p.dataset.country) ? '.25' : '1';
-    p.setAttribute('vector-effect', 'non-scaling-stroke');
-  });
-  if (selectedPaths.length) {
-    const bounds = selectedPaths.map(p => p.getBBox());
-    const left = Math.min(...bounds.map(b => b.x)), top = Math.min(...bounds.map(b => b.y));
-    const right = Math.max(...bounds.map(b => b.x + b.width)), bottom = Math.max(...bounds.map(b => b.y + b.height));
-    const padding = Math.max(right - left, bottom - top) * .12;
-    svg.setAttribute('viewBox', `${left-padding} ${top-padding} ${right-left+padding*2} ${bottom-top+padding*2}`);
-  }
+  focusSvg(svg, selectedCodes);
   svg.setAttribute('aria-label', `Mapa de equivalencia normativa: ${zoomLabel || 'América Latina y el Caribe'}`);
   const caption = document.createElement('div');
   caption.className = 'map-focus';
   caption.textContent = zoomLabel || 'América Latina y el Caribe';
   $('map').prepend(caption);
+}
+function renderTreaties(){
+  const rows = (data.treaties||[]).filter(t=>t.Tratado===treaty), status = new Map(rows.map(t=>[t.Cod_Pais,t]));
+  const names = [...new Set((data.treaties||[]).map(t=>t.Tratado))];
+  if(names.length&&!names.includes(treaty))treaty=names[0];
+  $('treaty').innerHTML = names.map(n=>`<option value="${esc(n)}" ${n===treaty?'selected':''}>${esc(n)}</option>`).join('');
+  const selectedCountries = filteredCountries(), selectedCodes = new Set(selectedCountries.map(c=>c.Cod_Pais));
+  if(!geography){$('treaty-map').innerHTML='<p class="empty">Mapa no disponible.</p>';}
+  else{
+    $('treaty-map').innerHTML=`<svg viewBox="0 0 400 420" aria-label="Mapa de vigencia del tratado ${esc(treaty)}">${geography.features.map(f=>{const code=f.properties['ISO3166-1-Alpha-3'],country=data.countries.find(c=>c.Cod_Pais===code),s=status.get(code);return `<path d="${geoPath(f.geometry)}" fill="${s?treatyColors[s.Vigencia_Nombre]||'#e0e7e2':'#e0e7e2'}" ${country?`tabindex="0" role="button" data-country="${code}" aria-label="Filtrar ${esc(country.Pais)}"`:''}><title>${esc(country?.Pais||f.properties.name)}: ${s?esc(s.Vigencia_Nombre):'Sin datos'}</title></path>`;}).join('')}</svg>`;
+    $('treaty-map').querySelectorAll('[data-country]').forEach(p=>{p.onclick=()=>setFilter('Cod_Pais',p.dataset.country);p.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();p.onclick();}};});
+    focusSvg($('treaty-map').querySelector('svg'), selectedCodes);
+  }
 }
 function renderTable(){
   const pageSize=10;page=Math.min(page,Math.max(0,Math.ceil(current.length/pageSize)-1));
@@ -89,6 +107,7 @@ function showDetail(r){
 }
 $('reset').onclick=()=>{Object.keys(filters).forEach(k=>delete filters[k]);$('search').value='';page=0;render();};
 $('search').oninput=()=>{page=0;render();};$('prev').onclick=()=>{page--;renderTable();};$('next').onclick=()=>{page++;renderTable();};
+$('treaty').onchange=e=>{treaty=e.target.value;renderTreaties();};
 $('close-dialog').onclick=()=>$('detail').close();
 try{
   const response=await fetch('data.json');if(!response.ok)throw new Error('No se pudo cargar la fuente de datos');data=await response.json();
