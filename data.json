@@ -1261,7 +1261,27 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-135",
+      "ID_Evidencia": "EVID-145",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Ley Especial",
+      "Jerarquia_Normativa": "Legal",
+      "Nombre_Norma": "Ley de Asociaciones y Fundaciones sin Fines de Lucro",
+      "Articulo_Seccion": "Todo el documento",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Promotor / Protector",
+      "Extracto_Relevante": "Regula la constitución y personería jurídica de organizaciones de la sociedad civil sin prohibir entidades de diversidad sexual, aunque carece de mecanismos afirmativos o instancias obligatorias de consulta.",
+      "URL_Evidencia": "",
+      "Fecha_Vigencia": "1996-11-21",
+      "Nivel_Equivalencia": "🟡2 - Equivalencia Parcial",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 2
+    },
+    {
+      "ID_Evidencia": "EVID-148",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -1281,7 +1301,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-141",
+      "ID_Evidencia": "EVID-154",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -1301,7 +1321,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-142",
+      "ID_Evidencia": "EVID-155",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -1321,7 +1341,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-143",
+      "ID_Evidencia": "EVID-156",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Jurisprudencial",
@@ -1341,7 +1361,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-147",
+      "ID_Evidencia": "EVID-160",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -1361,7 +1381,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-156",
+      "ID_Evidencia": "EVID-169",
       "Cod_Pais": "NIC",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -1381,7 +1401,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-159",
+      "ID_Evidencia": "EVID-172",
       "Cod_Pais": "NIC",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -1401,7 +1421,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-163",
+      "ID_Evidencia": "EVID-176",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -1421,7 +1441,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-166",
+      "ID_Evidencia": "EVID-179",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -1441,7 +1461,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-211",
+      "ID_Evidencia": "EVID-224",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -1461,7 +1481,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-213",
+      "ID_Evidencia": "EVID-226",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -1481,7 +1501,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-230",
+      "ID_Evidencia": "EVID-243",
       "Cod_Pais": "PRI",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -1681,7 +1701,47 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-138",
+      "ID_Evidencia": "EVID-141",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la familia",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Constitución",
+      "Jerarquia_Normativa": "Constitucional",
+      "Nombre_Norma": "Reforma al artículo 248 de la Constitución de la República de El Salvador",
+      "Articulo_Seccion": "Artículo 248",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Habilita aprobar y ratificar reformas constitucionales dentro de una misma legislatura con el voto de tres cuartas partes de los diputados (45 de 60), eliminando la salvaguarda previa frente a enmiendas regresivas.",
+      "URL_Evidencia": "",
+      "Fecha_Vigencia": "2025-01-29",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-147",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Ley Especial",
+      "Jerarquia_Normativa": "Legal",
+      "Nombre_Norma": "Ley de Agentes Extranjeros",
+      "Articulo_Seccion": "Todo el documento",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Impone inscripción obligatoria en el Registro de Agentes Extranjeros (RAEX), grava con un impuesto del 30 % las donaciones del exterior y faculta a imponer multas o cancelar la personería jurídica de las ONG.",
+      "URL_Evidencia": "",
+      "Fecha_Vigencia": "2025-05-20",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-151",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -1701,7 +1761,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-140",
+      "ID_Evidencia": "EVID-153",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -1721,7 +1781,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-149",
+      "ID_Evidencia": "EVID-162",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Jurisprudencial",
@@ -1741,7 +1801,7 @@
       "level": null
     },
     {
-      "ID_Evidencia": "EVID-160",
+      "ID_Evidencia": "EVID-173",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -1761,7 +1821,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-196",
+      "ID_Evidencia": "EVID-209",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -1943,26 +2003,6 @@
     {
       "ID_Evidencia": "EVID-130",
       "Cod_Pais": "SLV",
-      "Ambito_Derecho": "Salud",
-      "Formante": "",
-      "Tipo_Instrumento": "",
-      "Jerarquia_Normativa": "Administrativo",
-      "Nombre_Norma": "",
-      "Articulo_Seccion": "",
-      "Poblacion_Especifica": "",
-      "Efecto_Normativo": "",
-      "Extracto_Relevante": "Derogación de Facto",
-      "URL_Evidencia": "https://www.oas.org/es/cidh/docs/anual/2024/capitulos/IA2024_5_SLV_ES.PDF#:~:text=En%20el%202024%20la%20Comisi%C3%B3n%20conoci%C3%B3%20informaci%C3%B3n,CIDH%20en%20sus%20informes%20de%20pa%C3%ADs%20o.",
-      "Fecha_Vigencia": "",
-      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
-      "OBSERVACIONES": "",
-      "Pais": "El Salvador",
-      "Subregion_ILGA": "Centroamérica",
-      "level": 1
-    },
-    {
-      "ID_Evidencia": "EVID-131",
-      "Cod_Pais": "SLV",
       "Ambito_Derecho": "Educación",
       "Formante": "Formante Legislativo",
       "Tipo_Instrumento": "Ley General",
@@ -1981,7 +2021,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-132",
+      "ID_Evidencia": "EVID-131",
       "Cod_Pais": "SLV",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2001,7 +2041,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-133",
+      "ID_Evidencia": "EVID-132",
       "Cod_Pais": "SLV",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -2021,7 +2061,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-134",
+      "ID_Evidencia": "EVID-133",
       "Cod_Pais": "SLV",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -2041,7 +2081,227 @@
       "level": 1
     },
     {
+      "ID_Evidencia": "EVID-134",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la identidad",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Ley Especial",
+      "Jerarquia_Normativa": "Legal",
+      "Nombre_Norma": "Ley del Nombre de la Persona Natural (Decreto Legislativo N.° 450)",
+      "Articulo_Seccion": "Artículo 23, inciso segundo",
+      "Poblacion_Especifica": "Personas Trans",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Establece la correspondencia estricta entre la genitalidad constatada al nacer y la asignación nominal, careciendo de vía administrativa o legal para adecuar el nombre o el marcador de sexo a la identidad vivenciada.",
+      "URL_Evidencia": "https://www.hrw.org/es/report/2022/07/18/solo-queremos-salir-adelante/necesidad-de-reconocimiento-legal-de-la-identidad-de",
+      "Fecha_Vigencia": "1990-02-22",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-135",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la identidad",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Decisión Administrativa",
+      "Jerarquia_Normativa": "Administrativo",
+      "Nombre_Norma": "Acuerdo de archivo de la Comisión de la Mujer y la Igualdad de Género (Asamblea Legislativa)",
+      "Articulo_Seccion": "Expediente N.° 1094-3-2018-1 (Anteproyecto de Ley de Identidad de Género)",
+      "Poblacion_Especifica": "Personas Trans",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Envía al archivo el anteproyecto de Ley de Identidad de Género impulsado por la sociedad civil desde marzo de 2018 bajo el argumento de considerarlo obsoleto.",
+      "URL_Evidencia": "https://www.hrw.org/es/report/2022/07/18/solo-queremos-salir-adelante/necesidad-de-reconocimiento-legal-de-la-identidad-de",
+      "Fecha_Vigencia": "2021-05-14",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
       "ID_Evidencia": "EVID-136",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la vida y la integridad",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Decreto",
+      "Jerarquia_Normativa": "Legal",
+      "Nombre_Norma": "Régimen de Excepción (Decreto Legislativo N.° 333 y prórrogas sucesivas hasta Prórroga N.° 55)",
+      "Articulo_Seccion": "Todo el documento",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Suspende garantías constitucionales de asociación, reunión y debido proceso desde marzo de 2022 (vigente a noviembre de 2026), exacerbando detenciones arbitrarias, perfilamiento discriminatorio y abusos policiales o militares.",
+      "URL_Evidencia": "https://dplf.org/el-salvador-en-la-encrucijada-crimenes-de-lesa-humanidad-bajo-la-politica-de-seguridad-publica/",
+      "Fecha_Vigencia": "2022-03-27",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-137",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Salud",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Decisión Administrativa",
+      "Jerarquia_Normativa": "Administrativo",
+      "Nombre_Norma": "Derogación de facto / Retiro operativo de protocolos y formularios LGBTI (MINSAL)",
+      "Articulo_Seccion": "Instrucciones internas no publicadas",
+      "Poblacion_Especifica": "Personas Trans",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Retira de unidades de salud y clínicas de VIH el material físico, formularios con identidad de género y protocolos inclusivos de 2016 sin acto normativo motivado, anulando en la práctica el respeto al nombre social.",
+      "URL_Evidencia": "https://www.oas.org/es/cidh/docs/anual/2024/",
+      "Fecha_Vigencia": "2024-02-01",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-138",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la familia",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Proyecto de Ley",
+      "Jerarquia_Normativa": "Constitucional",
+      "Nombre_Norma": "Acuerdo de Reforma Constitucional N.° 2 (y tentativas de 2006, 2009 y 2012)",
+      "Articulo_Seccion": "Artículos 32, 33 y 34 de la Constitución",
+      "Poblacion_Especifica": "Parejas del mismo sexo",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Iniciativas legislativas destinadas a blindar constitucionalmente el matrimonio exclusivamente entre «un hombre y una mujer, así nacidos» y prohibir la adopción homoparental; caducaron al no ratificarse en la legislatura siguiente.",
+      "URL_Evidencia": "https://database.ilga.org",
+      "Fecha_Vigencia": "2015-04-30",
+      "Nivel_Equivalencia": "🟡2 - Equivalencia Parcial",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 2
+    },
+    {
+      "ID_Evidencia": "EVID-139",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la familia",
+      "Formante": "Formante Jurisprudencial",
+      "Tipo_Instrumento": "Sentencia de Alta Corte",
+      "Jerarquia_Normativa": "Constitucional",
+      "Nombre_Norma": "Resolución de Improcedencia en el Proceso de Inconstitucionalidad 95-2016 – Sala de lo Constitucional",
+      "Articulo_Seccion": "Auto liminar (Art. 11 Código de Familia)",
+      "Poblacion_Especifica": "Parejas del mismo sexo",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Rechaza in limine la demanda de inconstitucionalidad promovida contra el artículo 11 del Código de Familia que define el matrimonio exclusivamente entre un hombre y una mujer, evitando el análisis de fondo.",
+      "URL_Evidencia": "https://www.jurisprudencia.gob.sv",
+      "Fecha_Vigencia": "2016-08-15",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-140",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Derecho a la familia",
+      "Formante": "Formante Jurisprudencial",
+      "Tipo_Instrumento": "Sentencia de Alta Corte",
+      "Jerarquia_Normativa": "Constitucional",
+      "Nombre_Norma": "Resolución de Improcedencia en el Proceso de Inconstitucionalidad 18-2018 – Sala de lo Constitucional",
+      "Articulo_Seccion": "Auto liminar (Art. 11 Código de Familia)",
+      "Poblacion_Especifica": "Parejas del mismo sexo",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Clausura en etapa liminar una nueva impugnación contra el matrimonio heterosexual exclusivo alegando deficiencias argumentativas y evadiendo el control de convencionalidad derivado de la OC-24/17.",
+      "URL_Evidencia": "https://www.jurisprudencia.gob.sv",
+      "Fecha_Vigencia": "2018-04-30",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-142",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Educación",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Ley General",
+      "Jerarquia_Normativa": "Legal",
+      "Nombre_Norma": "Ley Crecer Juntos (Decreto Legislativo N.° 431) – Modificación regresiva de protección contra ECOSIG",
+      "Articulo_Seccion": "Artículo 20",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Suprime en el trámite parlamentario la prohibición expresa de tratamientos médicos o psicológicos orientados a cambiar la orientación sexual o identidad de género («terapias de conversión»), sustituyéndola por una cláusula genérica.",
+      "URL_Evidencia": "https://database.ilga.org",
+      "Fecha_Vigencia": "2022-06-22",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-143",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Educación",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Decisión Administrativa",
+      "Jerarquia_Normativa": "Administrativo",
+      "Nombre_Norma": "Retiro oficial del enfoque de género del currículo educativo nacional – MINEDUCYT",
+      "Articulo_Seccion": "Directriz ejecutiva y ministerial",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Elimina de los planes y materiales escolares públicos todo contenido vinculado con el enfoque de género y la diversidad sexual, dejando el abordaje del acoso escolar a discreción de cada dirección educativa.",
+      "URL_Evidencia": "https://database.ilga.org",
+      "Fecha_Vigencia": "2024-03-01",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-144",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Educación",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Resolución / Memorando",
+      "Jerarquia_Normativa": "Administrativo",
+      "Nombre_Norma": "Memorando N.° 22-2025 – Ministerio de Educación, Ciencia y Tecnología (MINEDUCYT)",
+      "Articulo_Seccion": "Todo el documento",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Prohíbe de manera expresa el uso de «lenguaje inclusivo» en todas las escuelas y centros educativos públicos del país.",
+      "URL_Evidencia": "https://database.ilga.org",
+      "Fecha_Vigencia": "2025-10-02",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-146",
+      "Cod_Pais": "SLV",
+      "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
+      "Formante": "Formante Legislativo",
+      "Tipo_Instrumento": "Decisión Administrativa",
+      "Jerarquia_Normativa": "Administrativo",
+      "Nombre_Norma": "Disolución de la Secretaría de Inclusión Social (SIS) y de la Dirección de Diversidad Sexual",
+      "Articulo_Seccion": "Acto orgánico del Órgano Ejecutivo",
+      "Poblacion_Especifica": "General LGBTIQ+",
+      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Extracto_Relevante": "Elimina la instancia presidencial encargada de supervisar el Decreto Ejecutivo N.° 56 de 2010 y suprime el canal formal de interlocución e incidencia entre las organizaciones LGBTIQ+ y el Estado.",
+      "URL_Evidencia": "https://www.hrw.org/es/report/2022/07/18/solo-queremos-salir-adelante/necesidad-de-reconocimiento-legal-de-la-identidad-de",
+      "Fecha_Vigencia": "2019-06-01",
+      "Nivel_Equivalencia": "🔴1 - Regresiva / Criminalizante.",
+      "OBSERVACIONES": "",
+      "Pais": "El Salvador",
+      "Subregion_ILGA": "Centroamérica",
+      "level": 1
+    },
+    {
+      "ID_Evidencia": "EVID-149",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2061,7 +2321,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-137",
+      "ID_Evidencia": "EVID-150",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2081,7 +2341,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-148",
+      "ID_Evidencia": "EVID-161",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2101,7 +2361,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-158",
+      "ID_Evidencia": "EVID-171",
       "Cod_Pais": "NIC",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2121,7 +2381,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-161",
+      "ID_Evidencia": "EVID-174",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -2141,7 +2401,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-168",
+      "ID_Evidencia": "EVID-181",
       "Cod_Pais": "PRY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2161,7 +2421,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-169",
+      "ID_Evidencia": "EVID-182",
       "Cod_Pais": "PRY",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -2181,7 +2441,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-171",
+      "ID_Evidencia": "EVID-184",
       "Cod_Pais": "PRY",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -2201,7 +2461,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-172",
+      "ID_Evidencia": "EVID-185",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -2210,7 +2470,7 @@
       "Nombre_Norma": "Resolución TSE N.º 1098-E3-2024 (Tribunal Supremo de Elecciones)",
       "Articulo_Seccion": "Resolución completa",
       "Poblacion_Especifica": "Personas Trans",
-      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Efecto_Normativo": "Obstaculizador/Restrictivo",
       "Extracto_Relevante": "Distingue entre sexo registral y género, dictaminando que el género no es objeto de inscripción y rechazando rectificar el dato de sexo asignado al nacer en la partida.",
       "URL_Evidencia": "https://www.tse.go.cr/juris/electorales/1098-E3-2024.html",
       "Fecha_Vigencia": "2024-02-01",
@@ -2221,7 +2481,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-173",
+      "ID_Evidencia": "EVID-186",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -2230,7 +2490,7 @@
       "Nombre_Norma": "Resolución N.º 2026-012866 (Sala Constitucional)",
       "Articulo_Seccion": "Exp. 25-034270-0007-CO",
       "Poblacion_Especifica": "Personas Trans",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Anula la resolución administrativa del Registro Civil que había rechazado el cambio de nombre de una persona no binaria, ordenando reexaminar la solicitud bajo principios pro homine y pro libertatis.",
       "URL_Evidencia": "https://nexuspj.poder-judicial.go.cr/document/sen-1-0007-1403402",
       "Fecha_Vigencia": "2026-04-10",
@@ -2241,7 +2501,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-174",
+      "ID_Evidencia": "EVID-187",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -2250,7 +2510,7 @@
       "Nombre_Norma": "Ley N.º 10175 y Ley N.º 10213 (Reformas al Código Penal)",
       "Articulo_Seccion": "Art. 112 inc. 11 y Art. 381 bis",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Califica el homicidio cometido por odio a la orientación sexual, identidad o expresión de género (20 a 35 años de prisión) e incluye la orientación sexual en el delito de tortura.",
       "URL_Evidencia": "https://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/L/2020-2029/2020-2024/2022/17AF8/14F308.HTML",
       "Fecha_Vigencia": "2022-04-25",
@@ -2261,7 +2521,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-175",
+      "ID_Evidencia": "EVID-188",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -2270,7 +2530,7 @@
       "Nombre_Norma": "Circular Conjunta N.º 04-MP-OIJ-2026",
       "Articulo_Seccion": "Todo el documento",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Aprueba el Protocolo de diligencias de actuación para la investigación fiscal y policial de crímenes de odio motivados por prejuicio.",
       "URL_Evidencia": "https://ministeriopublico.poder-judicial.go.cr/index.php/regulacion/circulares-conjuntas?catids%5B0%5D=91&items_order=title.desc&view=documents",
       "Fecha_Vigencia": "2026-01-01",
@@ -2281,7 +2541,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-176",
+      "ID_Evidencia": "EVID-189",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -2290,7 +2550,7 @@
       "Nombre_Norma": "Ley N.º 8239 y Ley N.º 9797 (Ley General sobre el VIH)",
       "Articulo_Seccion": "Art. 2 (Ley 8239)",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Reconoce el derecho a trato digno, información y consentimiento informado en servicios de salud y prohíbe el estigma y la discriminación por VIH garantizando confidencialidad.",
       "URL_Evidencia": "https://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/L/2010-2019/2015-2019/2019/16083/14D576.HTML",
       "Fecha_Vigencia": "2019-12-02",
@@ -2301,7 +2561,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-177",
+      "ID_Evidencia": "EVID-190",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2310,7 +2570,7 @@
       "Nombre_Norma": "Ley N.º 10223 (Reforma al Código de Familia) y Res. N.º 2018-012783",
       "Articulo_Seccion": "Art. 245 (antes art. 242)",
       "Poblacion_Especifica": "Parejas del mismo sexo",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Sustituye la referencia a hombre y mujer por \"dos personas con aptitud legal para contraer matrimonio\" en la unión de hecho, otorgando efectos patrimoniales tras 2 años de convivencia.",
       "URL_Evidencia": "https://www.pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/L/2020-2029/2020-2024/2022/17B34/14F9B3.HTML",
       "Fecha_Vigencia": "2022-05-05",
@@ -2321,7 +2581,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-178",
+      "ID_Evidencia": "EVID-191",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -2330,7 +2590,7 @@
       "Nombre_Norma": "Resolución N.º 2001-07521 (Sala Constitucional) y Código de Familia",
       "Articulo_Seccion": "Arts. 100, 103 y 110",
       "Poblacion_Especifica": "Parejas del mismo sexo",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Habilita la adopción conjunta a cónyuges y convivientes en unión de hecho sin exclusión por orientación sexual, bajo evaluación del interés superior del menor.",
       "URL_Evidencia": "https://www.asamblea.go.cr/sd/SiteAssets/Lists/Consultas%20Biblioteca/EditForm/C%C3%B3digo%20de%20Familia.pdf",
       "Fecha_Vigencia": "2001-08-01",
@@ -2341,7 +2601,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-179",
+      "ID_Evidencia": "EVID-192",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -2350,7 +2610,7 @@
       "Nombre_Norma": "Resolución N.º 2025-002790 (Sala Constitucional) y Comunicado TSE N.º 665",
       "Articulo_Seccion": "Exp. 24-008527-0007-CO",
       "Poblacion_Especifica": "Parejas del mismo sexo",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Reconoce la presunción de comaternidad en matrimonios de mujeres y declara inconstitucional negar la licencia de paternidad/crianza a la madre no gestante.",
       "URL_Evidencia": "https://nexuspj.poder-judicial.go.cr/document/sen-1-0007-1290103",
       "Fecha_Vigencia": "2025-01-29",
@@ -2361,7 +2621,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-180",
+      "ID_Evidencia": "EVID-193",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Educación",
       "Formante": "Formante Legislativo",
@@ -2370,7 +2630,7 @@
       "Nombre_Norma": "Protocolo MEP de atención del bullying contra población LGTB y Ley N.º 9155",
       "Articulo_Seccion": "Art. 2 (Ley 9155)",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Prohíbe la discriminación juvenil por orientación sexual y obliga a centros educativos a intervenir ante el bullying LGTB respetando el nombre elegido y la confidencialidad.",
       "URL_Evidencia": "https://www.mep.go.cr/sites/default/files/2022-07/atencion-bullying-contra-poblacion-lgtb.pdf",
       "Fecha_Vigencia": "2018-11-01",
@@ -2381,7 +2641,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-181",
+      "ID_Evidencia": "EVID-194",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Educación",
       "Formante": "Formante Jurisprudencial",
@@ -2390,7 +2650,7 @@
       "Nombre_Norma": "Resolución N.º 2026-021109 (Sala Constitucional) y Acuerdo CSE 2025",
       "Articulo_Seccion": "Exp. 25-006416-0007-CO",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Obstaculizador / Restrictivo",
+      "Efecto_Normativo": "Obstaculizador/Restrictivo",
       "Extracto_Relevante": "Avala el acuerdo del Consejo Superior de Educación que sustituyó el Programa de Afectividad y Sexualidad Integral (estimando solo el extremo sobre sexo en tarjeta de menores).",
       "URL_Evidencia": "https://salaconstitucional.poder-judicial.go.cr/index.php/informacion-complementaria/actas-de-votacion/271-2026/279-junio?download=6219%3A09-06-2026-b",
       "Fecha_Vigencia": "2026-06-09",
@@ -2401,7 +2661,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-182",
+      "ID_Evidencia": "EVID-195",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -2410,7 +2670,7 @@
       "Nombre_Norma": "Código de Trabajo (Ley N.º 2) y Decreto Ejecutivo N.º 45799-MIDEPLAN",
       "Articulo_Seccion": "Arts. 404–410 (CT) y Arts. 80–82 (Decreto)",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Prohíbe expresamente la discriminación laboral y despido por orientación sexual en el sector público y privado, y tipifica la discriminación como falta grave en Servicio Civil.",
       "URL_Evidencia": "https://www.mtss.go.cr/elministerio/marco-legal/documentos/codigo_trabajo_cr.pdf",
       "Fecha_Vigencia": "2026-10-30",
@@ -2421,7 +2681,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-183",
+      "ID_Evidencia": "EVID-196",
       "Cod_Pais": "CRI",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Jurisprudencial",
@@ -2430,7 +2690,7 @@
       "Nombre_Norma": "Resolución N.º 2026-032933 (Sala Constitucional)",
       "Articulo_Seccion": "Exp. 26-016039-0007-CO",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Estima parcialmente recurso de amparo por falta de respuesta estatal sobre los fundamentos de la decisión del Ejecutivo de retirarse del Grupo Núcleo LGBTI+ de la OEA.",
       "URL_Evidencia": "https://vlex.co.cr/vid/sentencia-n-2026032933-sala-1135434304",
       "Fecha_Vigencia": "2026-08-27",
@@ -2441,7 +2701,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-184",
+      "ID_Evidencia": "EVID-197",
       "Cod_Pais": "DOM",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2461,7 +2721,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-207",
+      "ID_Evidencia": "EVID-220",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Educación",
       "Formante": "Formante Legislativo",
@@ -2470,7 +2730,7 @@
       "Nombre_Norma": "Resolución ANEP N.º 2953/026 (Plan Nacional de Educación Sexual Integral 2026–2030)",
       "Articulo_Seccion": "Todo el documento (Exp. 2026-25-1-003601)",
       "Poblacion_Especifica": "General LGBTIQ+",
-      "Efecto_Normativo": "Promotor / Protector",
+      "Efecto_Normativo": "Promotor/Protector",
       "Extracto_Relevante": "Aprueba el Plan Nacional e Intersectorial de Educación Sexual Integral 2026–2030 para todos los ciclos educativos.",
       "URL_Evidencia": "https://www.anep.edu.uy/sites/default/files/images/2026/resoluciones/202502/AAA0260382953.pdf",
       "Fecha_Vigencia": "2026-11-03",
@@ -2481,7 +2741,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-212",
+      "ID_Evidencia": "EVID-225",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2501,7 +2761,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-214",
+      "ID_Evidencia": "EVID-227",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -2521,7 +2781,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-215",
+      "ID_Evidencia": "EVID-228",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Jurisprudencial",
@@ -2541,7 +2801,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-216",
+      "ID_Evidencia": "EVID-229",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -2561,7 +2821,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-222",
+      "ID_Evidencia": "EVID-235",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -2581,7 +2841,7 @@
       "level": 1
     },
     {
-      "ID_Evidencia": "EVID-223",
+      "ID_Evidencia": "EVID-236",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -2601,7 +2861,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-228",
+      "ID_Evidencia": "EVID-241",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3601,7 +3861,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-139",
+      "ID_Evidencia": "EVID-152",
       "Cod_Pais": "GTM",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3621,7 +3881,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-144",
+      "ID_Evidencia": "EVID-157",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -3641,7 +3901,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-145",
+      "ID_Evidencia": "EVID-158",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -3661,7 +3921,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-146",
+      "ID_Evidencia": "EVID-159",
       "Cod_Pais": "HND",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Jurisprudencial",
@@ -3681,7 +3941,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-150",
+      "ID_Evidencia": "EVID-163",
       "Cod_Pais": "MEX",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Jurisprudencial",
@@ -3701,7 +3961,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-151",
+      "ID_Evidencia": "EVID-164",
       "Cod_Pais": "MEX",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -3721,7 +3981,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-152",
+      "ID_Evidencia": "EVID-165",
       "Cod_Pais": "MEX",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3741,7 +4001,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-153",
+      "ID_Evidencia": "EVID-166",
       "Cod_Pais": "MEX",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3761,7 +4021,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-154",
+      "ID_Evidencia": "EVID-167",
       "Cod_Pais": "MEX",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -3781,7 +4041,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-155",
+      "ID_Evidencia": "EVID-168",
       "Cod_Pais": "NIC",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -3801,7 +4061,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-157",
+      "ID_Evidencia": "EVID-170",
       "Cod_Pais": "NIC",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -3821,7 +4081,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-162",
+      "ID_Evidencia": "EVID-175",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -3841,7 +4101,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-164",
+      "ID_Evidencia": "EVID-177",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3861,7 +4121,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-165",
+      "ID_Evidencia": "EVID-178",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -3881,7 +4141,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-167",
+      "ID_Evidencia": "EVID-180",
       "Cod_Pais": "PAN",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3901,7 +4161,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-170",
+      "ID_Evidencia": "EVID-183",
       "Cod_Pais": "PRY",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -3921,7 +4181,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-185",
+      "ID_Evidencia": "EVID-198",
       "Cod_Pais": "DOM",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -3941,7 +4201,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-186",
+      "ID_Evidencia": "EVID-199",
       "Cod_Pais": "DOM",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -3961,7 +4221,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-187",
+      "ID_Evidencia": "EVID-200",
       "Cod_Pais": "DOM",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -3981,7 +4241,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-188",
+      "ID_Evidencia": "EVID-201",
       "Cod_Pais": "DOM",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -4001,7 +4261,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-189",
+      "ID_Evidencia": "EVID-202",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -4021,7 +4281,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-190",
+      "ID_Evidencia": "EVID-203",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -4041,7 +4301,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-191",
+      "ID_Evidencia": "EVID-204",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -4061,7 +4321,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-192",
+      "ID_Evidencia": "EVID-205",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -4081,7 +4341,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-193",
+      "ID_Evidencia": "EVID-206",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -4101,7 +4361,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-194",
+      "ID_Evidencia": "EVID-207",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -4121,7 +4381,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-195",
+      "ID_Evidencia": "EVID-208",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Legislativo",
@@ -4141,7 +4401,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-197",
+      "ID_Evidencia": "EVID-210",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -4161,7 +4421,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-198",
+      "ID_Evidencia": "EVID-211",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -4181,7 +4441,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-199",
+      "ID_Evidencia": "EVID-212",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Jurisprudencial",
@@ -4201,7 +4461,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-200",
+      "ID_Evidencia": "EVID-213",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -4221,7 +4481,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-201",
+      "ID_Evidencia": "EVID-214",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -4241,7 +4501,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-202",
+      "ID_Evidencia": "EVID-215",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -4261,7 +4521,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-203",
+      "ID_Evidencia": "EVID-216",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -4281,7 +4541,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-204",
+      "ID_Evidencia": "EVID-217",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -4301,7 +4561,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-205",
+      "ID_Evidencia": "EVID-218",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -4321,7 +4581,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-206",
+      "ID_Evidencia": "EVID-219",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Educación",
       "Formante": "Formante Legislativo",
@@ -4341,7 +4601,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-208",
+      "ID_Evidencia": "EVID-221",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -4361,7 +4621,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-209",
+      "ID_Evidencia": "EVID-222",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -4381,7 +4641,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-210",
+      "ID_Evidencia": "EVID-223",
       "Cod_Pais": "URY",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -4401,7 +4661,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-217",
+      "ID_Evidencia": "EVID-230",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -4421,7 +4681,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-218",
+      "ID_Evidencia": "EVID-231",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Legislativo",
@@ -4441,7 +4701,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-219",
+      "ID_Evidencia": "EVID-232",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Jurisprudencial",
@@ -4461,7 +4721,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-220",
+      "ID_Evidencia": "EVID-233",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la vida y la integridad",
       "Formante": "Formante Jurisprudencial",
@@ -4481,7 +4741,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-221",
+      "ID_Evidencia": "EVID-234",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Salud",
       "Formante": "Formante Legislativo",
@@ -4501,7 +4761,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-224",
+      "ID_Evidencia": "EVID-237",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Legislativo",
@@ -4521,7 +4781,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-225",
+      "ID_Evidencia": "EVID-238",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Educación",
       "Formante": "Formante Legislativo",
@@ -4541,7 +4801,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-226",
+      "ID_Evidencia": "EVID-239",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -4561,7 +4821,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-227",
+      "ID_Evidencia": "EVID-240",
       "Cod_Pais": "VEN",
       "Ambito_Derecho": "Participación ciudadana y defensa de DDHH",
       "Formante": "Formante Legislativo",
@@ -4581,7 +4841,7 @@
       "level": 2
     },
     {
-      "ID_Evidencia": "EVID-229",
+      "ID_Evidencia": "EVID-242",
       "Cod_Pais": "PRI",
       "Ambito_Derecho": "Derecho a la familia",
       "Formante": "Formante Jurisprudencial",
@@ -4601,7 +4861,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-231",
+      "ID_Evidencia": "EVID-244",
       "Cod_Pais": "PRI",
       "Ambito_Derecho": "Empleo",
       "Formante": "Formante Legislativo",
@@ -4621,7 +4881,7 @@
       "level": 3
     },
     {
-      "ID_Evidencia": "EVID-232",
+      "ID_Evidencia": "EVID-245",
       "Cod_Pais": "PRI",
       "Ambito_Derecho": "Derecho a la identidad",
       "Formante": "Formante Jurisprudencial",
@@ -5978,7 +6238,7 @@
     "MATRIZ NORMATIVA",
     "TABLA TRATADOS"
   ],
-  "source": "2. ILGA V5.pbix",
+  "source": "2. ILGA V6.pbix",
   "countries": [
     {
       "DIVISION": "CLAU",
